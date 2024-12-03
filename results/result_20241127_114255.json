@@ -1,0 +1,14 @@
+{
+    "filename": "a.wav",
+    "meanF0Hz": 1259.3291015625,
+    "jitter": 0.611933171749115,
+    "shimmer": 0.577808141708374,
+    "speechText": "Ah",
+    "speechConfidence": 0.717,
+    "intentName": "recognize_vowel",
+    "intentConfidence": 0.9906113665186539,
+    "probability": 100,
+    "validation": "CORRECTO",
+    "executionTime": 8.31981,
+    "error": null
+}

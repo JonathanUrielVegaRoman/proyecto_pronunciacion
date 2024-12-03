@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Audio</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Análisis de Audio</h1>
+
+    <!-- Descripción de lo que se mostrará en la tabla -->
+    <p>Los resultados del análisis de audio se mostrarán en la tabla de abajo. Haz clic en "Analizar" para obtener los resultados.</p>
+
+    <!-- Selección del nivel -->
+    <div class="level-select-box">
+        <label for="levelSelect">Selecciona el nivel:</label>
+        <select id="levelSelect">
+            <option value="1">Nivel 1</option>
+            <option value="2">Nivel 2</option>
+            <option value="3">Nivel 3</option>
+        </select>
+    </div>
+
+    <!-- Contenedor para las subcategorías del nivel seleccionado -->
+    <div id="levelSubOptions"></div>
+
+    <!-- Contenedor para las opciones específicas de la subcategoría seleccionada -->
+    <div id="subOptions"></div>
+
+    <!-- Contenedor para subir el archivo de audio -->
+    <div class="upload-box" id="uploadBox">
+        <p>Arrastra y suelta un archivo de audio aquí o</p>
+        <label for="audioFile">Selecciona un archivo</label>
+        <input type="file" name="audio" id="audioFile" accept="audio/*" required>
+        <p id="fileName" style="margin-top: 10px; color: #555;"></p>
+    </div>
+
+    <!-- Botón para iniciar el análisis -->
+    <button type="button" id="analyzeBtn">Analizar</button>
+
+    <!-- Tabla para mostrar los resultados -->
+    <table id="resultsTable">
+        <thead>
+            <tr>
+                <th>Archivo</th>
+                <th>Jitter</th>
+                <th>Shimmer</th>
+                <th>Frecuencia Fundamental</th>
+                <th>Tiempo</th>
+                <th>Probabilidad</th>
+                <th>Validación</th>
+                <th>Falsos Positivos</th>
+                <th>Falsos Negativos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se llenarán las filas con los resultados -->
+            <tr>
+                <td colspan="9">Aún no se ha realizado ningún análisis.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "filename": "serpiente.wav",
+    "meanF0Hz": 1790.5770263671875,
+    "jitter": 0.711270809173584,
+    "shimmer": 1.0108609199523926,
+    "speechText": "Serpiente",
+    "speechConfidence": 0.8616,
+    "intentName": "recognize_animals",
+    "intentConfidence": 0.9854195956959917,
+    "probability": 100,
+    "validation": "CORRECTO",
+    "executionTime": 3.25792,
+    "error": null
+}

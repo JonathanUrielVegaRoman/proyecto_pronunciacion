@@ -1,0 +1,14 @@
+{
+    "filename": "serpiente.wav",
+    "meanF0Hz": 1790.5770263671875,
+    "jitter": 0.711270809173584,
+    "shimmer": 1.0108609199523926,
+    "speechText": "Serpiente",
+    "speechConfidence": 0.4307,
+    "intentName": "unknown",
+    "intentConfidence": 0.0,
+    "probability": 0.0,
+    "validation": "INCORRECTO",
+    "executionTime": 2.41643,
+    "error": "La transcripci\u00f3n no coincide con la opci\u00f3n seleccionada. Se esperaba 'zorro' pero se recibi\u00f3 'Serpiente'."
+}
